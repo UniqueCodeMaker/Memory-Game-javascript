@@ -1,0 +1,105 @@
+body
+{
+    background-color: darkcyan;
+    color:black;
+    font-family:Pristina;
+}
+
+#b1
+{
+height:80px;
+width:150px;
+font-size:40px;
+background-color:blue;
+color:white;
+margin:20px;
+
+}
+#d2
+{
+float:left;
+border-radius:30px ;
+display: inline-block;
+position: relative;
+width:auto;
+height:auto;
+}
+#d3
+{
+
+border-radius:30px ;
+position: relative;
+width:auto;
+height:auto;
+display: inline-block;
+}
+
+
+a:link {
+    color: red;
+    text-decoration:none;
+}
+
+
+a:visited {
+    color: yellow;
+    text-decoration:none;
+}
+
+
+ a:hover {
+    color: hotpink;
+    text-decoration:none;
+}
+
+
+a:active {
+     color: blue;
+     text-decoration:none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border:3px solid white;
+    border-radius: 0px 5px 0 5px;
+    height:43px;
+	width:140px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 750px;
+    font-family: segoe print;
+    background-color:#0e83cd;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size:15px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+
+}
+.tooltip:hover {
+background-color: white;
+color:#28abe3;
+
+}
+
+
+#upmenu {
+width:auto;
+height:auto;
+position:relative;
+right:0;
+color:white;
+font-size:23px;
+font-family:sans-serif;
+}
+
